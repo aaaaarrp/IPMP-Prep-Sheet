@@ -1,11 +1,12 @@
 
-// C++ program to find the element occurring odd number of times
+// Program to find the element occurring odd number of times
 
+// Brute force method - Time complexity: O(n*n)
 
 #include<bits/stdc++.h>
 using namespace std;
 
-int getOddOccurrence(int a[], int n){       // Brute force method - Time complexity: O(n*n)
+int getOddOccurrence(int a[], int n){       
 
     for(int i = 0; i < n; i++){
 
@@ -28,7 +29,7 @@ int main()
         int arr[] = { 2, 3, 5, 4, 5, 2, 4, 3, 5, 2, 4, 4, 2 };
         int n = sizeof(arr) / sizeof(arr[0]);
  
-        cout << getOddOccurrence(arr, n);
+        cout << getOddOccurrence(arr, n) << endl;
  
         return 0;
     }

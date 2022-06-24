@@ -1,11 +1,12 @@
 
-// C++ program to find the element occurring odd number of times
+// Program to find the element occurring odd number of times
 
+// bitwise XOR - Time Complexity: O(n)
 
 #include<bits/stdc++.h>
 using namespace std;
 
-int getOddOccurrence(int a[], int n){       // bitwise XOR - Time Complexity: O(n)
+int getOddOccurrence(int a[], int n){       
 
     int res = 0;
 

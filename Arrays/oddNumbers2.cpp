@@ -1,12 +1,13 @@
 
-// C++ program to find the element occurring odd number of times
+// Program to find the element occurring odd number of times
 
+// Hashing - Time Complexity: O(n) + Extra space
 
 #include<bits/stdc++.h>
 #include <unordered_map>
 using namespace std;
 
-int getOddOccurrence(int a[], int n){      // Hashing - Time Complexity: O(n) + Extra space
+int getOddOccurrence(int a[], int n){      
 
     unordered_map<int, int> hash;
 
