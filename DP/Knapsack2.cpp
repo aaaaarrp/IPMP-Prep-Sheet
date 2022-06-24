@@ -1,5 +1,6 @@
+// A dynamic programming based solution for 0-1 Knapsack problem 
 
-// A dynamic programming based solution for 0-1 Knapsack problem : Time O(N*W) : Space O(N*W)
+// Time O(N*W) : Space O(N*W)
 
 #include <bits/stdc++.h>
 using namespace std;

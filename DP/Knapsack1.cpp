@@ -1,5 +1,7 @@
+// Implementation of 0-1 Knapsack problem
 
-// Brute-Force: A Naive recursive implementation of 0-1 Knapsack problem : Time O(2^n) : Space O(1)
+// Brute-Force method
+// Time O(2^n) : Space O(1)
 
 #include <bits/stdc++.h>
 using namespace std;

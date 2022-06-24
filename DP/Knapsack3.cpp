@@ -1,11 +1,14 @@
 
-// A dynamic programming based solution for 0-1 Knapsack problem : Time O(N*W) : Space O(2*W) 
+// A dynamic programming based solution for 0-1 Knapsack problem  - Space optimized
 
     // We know we are always using the the current row or
     // the previous row of the array/vector . Thereby we can
     // improve it further by using a 2D array but with only
     // 2 rows i%2 will be giving the index inside the bounds
     // of 2d array K
+
+// Time O(N*W) : Space O(2*W)
+
 
 #include <bits/stdc++.h>
 using namespace std;

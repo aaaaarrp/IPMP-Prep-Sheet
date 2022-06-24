@@ -23,7 +23,7 @@ struct Graph* createGraph(int V, int E){
     return graph;
 }
 
-void printArray(int dist[], int n){
+void printSolution(int dist[], int n){
     cout << "Vertex  Distance from Source" << endl;
     for(int i=0; i<n; i++){
         cout << i << "\t\t" << dist[i] << endl;
@@ -59,7 +59,7 @@ void BellmanFord(struct Graph* graph, int src){
         }
     }
 
-    printArray(dist, V);
+    printSolution(dist, V);
     return;
 }
 

@@ -1,9 +1,8 @@
 
-// A dynamic programming based solution for 0-1 Knapsack problem : Time O(N*W) : Space O(W)
-// we are using 1-D array instead of 2-D array.
+// A dynamic programming based solution for 0-1 Knapsack problem 
 
-// 60, 100, 120
-// 10, 20, 30
+// Time O(N*W) : Space O(W)
+// we are using 1-D array instead of 2-D array.
 
 #include <bits/stdc++.h>
 using namespace std;
