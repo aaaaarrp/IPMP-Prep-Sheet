@@ -14,18 +14,19 @@
 using namespace std;
 
 int myAtoi(char *str){
-    int base = 0, sign = 1, i = 0;
+    long long base = 0;
+    int sign = 1, i = 0;
 
     while(str[i] == ' ')    // ignores whitespaces
         i++;
-    
-    if(str[i] == '-')   // for negative numbers
-        sign = -1;
-        i++;
+
+    if (str[i] == '-' || str[i] == '+'){    // handling the signs
+        sign = 1 - 2 * (str[i++] == '-');
+    }
 
     while(str[i] >= '0' && str[i] <= '9') {     // checking for valid input
         // handling overflow test case
-        if(base > INT_MAX/10 || (base == INT_MAX/10 && str[i] - '0' > 7)){
+        if(base > INT_MAX){
             if(sign == 1)
                 return INT_MAX;
             else
@@ -43,7 +44,7 @@ int myAtoi(char *str){
 
 int main(){
     int val;
-    char str1[] = "-123";
+    char str1[] = "42";
     val = myAtoi(str1);
     cout << val << endl;
 }
