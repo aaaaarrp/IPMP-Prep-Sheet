@@ -6,12 +6,12 @@
 using namespace std;
 
 bool areDistinct(string s, int i, int j){
-    vector<bool> visited(26);
+    vector<bool> visited(256);
 
     for(int k =i; k<=j; k++){
-        if(visited[s[k]-'a'] == true)
+        if(visited[s[k]] == true)
             return false;
-        visited[s[k]-'a'] = true;
+        visited[s[k]] = true;
     }
     return true;
 }
@@ -30,7 +30,7 @@ int longestUniqueSubsttr(string s){
 
 int main()
 {
-    string str = "fkenlkfnwef";
+    string str = "  ";
     cout << "The input string is " << str << endl;
     int len = longestUniqueSubsttr(str);
     cout << "The length of the longest non-repeating "
