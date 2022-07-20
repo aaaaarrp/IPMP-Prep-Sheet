@@ -14,7 +14,7 @@ int countSubsetSum(int n, int sum, vector<int> &nums){
         table[i][0] = 1;
     
     for(int i=1; i<n+1; i++){
-        for(int j=1; j<sum+1; j++){
+        for(int j=0; j<sum+1; j++){
             if(nums[i-1] <= j)
                 table[i][j] = table[i-1][j-nums[i-1]] + table[i-1][j];
             else
