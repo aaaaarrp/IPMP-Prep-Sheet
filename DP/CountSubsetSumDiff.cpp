@@ -1,6 +1,7 @@
 // Program to count the number of subset with a given difference in an array
 
 // Variation of 0/1 knapsack & Extension of Counting subsets with a given sum
+// This problem is also knows as Target Sum on LeetCode
 // Bottom up -> Time O(n^2)
 
 #include<bits/stdc++.h>
