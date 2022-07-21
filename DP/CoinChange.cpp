@@ -1,7 +1,7 @@
 // Program to find the max no of ways that coins in the given array can makeup the given amount
 // Also known as Coin Change II problem on LeetCode
 
-// Variation of unbounded knapsack
+// Variation of unbounded knapsack & Count Subset Sum problem of 0/1 knapsack
 // Bottom up approach
 
 
