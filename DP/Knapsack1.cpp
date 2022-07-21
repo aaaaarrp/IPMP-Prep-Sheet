@@ -1,4 +1,4 @@
-// Implementation of 0-1 Knapsack problem
+// Implementation of 0/1 Knapsack problem
 
 // Top down
 // Time O(2^n) : Space O(1)
