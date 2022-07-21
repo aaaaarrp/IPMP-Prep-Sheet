@@ -1,4 +1,5 @@
 // Program for unbounded knapsack
+// Rod Cutting problem follows the same procedure of unbounded knapsack without any change
 
 /*  Differece between 0/1 knapsack & unbounded knapsack is that 
     In 0/1 knapsack we can take one item only once
