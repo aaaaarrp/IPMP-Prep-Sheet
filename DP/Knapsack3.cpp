@@ -1,5 +1,5 @@
 
-// A dynamic programming based solution for 0-1 Knapsack problem  - Space optimized
+// A dynamic programming based solution for 0/1 Knapsack problem  - Space optimized
 
     // We know we are always using the the current row or
     // the previous row of the array/vector . Thereby we can
@@ -8,6 +8,7 @@
     // of 2d array K
 
 // Time O(N*W) : Space O(2*W)
+// Bottom up
 
 
 #include <bits/stdc++.h>
@@ -40,5 +41,5 @@ int main(){
     int weight[] = { 10, 20, 30}; 
     int w = 50;
     int size = sizeof(value)/sizeof(value[0]);
-    cout << knapsack(value, weight, w, size);
+    cout << knapsack(value, weight, w, size) << endl;
 }

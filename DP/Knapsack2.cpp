@@ -1,6 +1,7 @@
-// A dynamic programming based solution for 0-1 Knapsack problem 
+// A dynamic programming based solution for 0/1 Knapsack problem 
 
 // Time O(N*W) : Space O(N*W)
+// Bottom up
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -32,5 +33,5 @@ int main(){
     int weight[] = { 10, 20, 30}; 
     int w = 50;
     int size = sizeof(value)/sizeof(value[0]);
-    cout << knapsack(value, weight, w, size);
+    cout << knapsack(value, weight, w, size) << endl;
 }

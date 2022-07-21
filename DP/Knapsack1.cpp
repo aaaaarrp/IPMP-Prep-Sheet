@@ -1,6 +1,6 @@
 // Implementation of 0-1 Knapsack problem
 
-// Brute-Force method
+// Top down
 // Time O(2^n) : Space O(1)
 
 #include <bits/stdc++.h>
@@ -34,7 +34,7 @@ int main(){
     int weight[] = { 10, 20, 30 };
     int W = 50;
     int n = sizeof(value)/sizeof(value[0]);
-    cout << knapsack(value, weight, W, n);
+    cout << knapsack(value, weight, W, n) << endl;
 
     return 0;
 }
